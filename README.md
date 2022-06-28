@@ -29,3 +29,6 @@ We suggest that you begin by typing:
 
   cd tres-caras
   npm start
+
+#CD/CI
+https://vanessamarely.medium.com/despliegue-de-tu-aplicaci%C3%B3n-de-react-usando-github-actions-357628b6084f
