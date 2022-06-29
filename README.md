@@ -11,6 +11,9 @@ https://trello.com/b/uys41kSX/building-an-mvp-tres-caras
 https://console.firebase.google.com/u/0/project/mykids-4707f/overview
 
 # Development
+https://www.npmjs.com/package/cra-template-pwa-typescript
+https://mui.com/
+https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 npm start
     Starts the development server.
@@ -32,3 +35,6 @@ We suggest that you begin by typing:
 
 #CD/CI
 https://vanessamarely.medium.com/despliegue-de-tu-aplicaci%C3%B3n-de-react-usando-github-actions-357628b6084f
+
+npm run build
+npm run deploy

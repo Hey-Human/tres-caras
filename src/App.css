@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.Interactive-colors {
+  color: lightblue;
+}
+
+@keyframes Hover-Title {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(100%);
+    color: white;
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.Interactive-colors:hover, .Interactive-colors:active{
+  animation: Hover-Title infinite 1000ms ease-in-out;
+}
