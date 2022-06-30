@@ -12,9 +12,28 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* .App-header {
+  height: 100px;
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to right, 
+      red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green
+    );
+} */
 .App-header {
   background: linear-gradient(rgb(60, 158, 218) 0%, rgb(57, 53, 208) 100%);
+  background-image:
+    linear-gradient(
+      to right, 
+      red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green
+    );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
