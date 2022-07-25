@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tres-caras/static/css/main.d1b3546e.css",
-    "main.js": "/tres-caras/static/js/main.5a0070e6.js",
+    "main.css": "/tres-caras/static/css/main.a217b185.css",
+    "main.js": "/tres-caras/static/js/main.0547712f.js",
     "static/js/787.eddd2761.chunk.js": "/tres-caras/static/js/787.eddd2761.chunk.js",
+    "static/media/circles.png": "/tres-caras/static/media/circles.e1bea1e29c02c795b2e3.png",
     "service-worker.js": "/tres-caras/service-worker.js",
-    "static/media/logo.svg": "/tres-caras/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/tres-caras/index.html",
-    "main.d1b3546e.css.map": "/tres-caras/static/css/main.d1b3546e.css.map",
-    "main.5a0070e6.js.map": "/tres-caras/static/js/main.5a0070e6.js.map",
+    "main.a217b185.css.map": "/tres-caras/static/css/main.a217b185.css.map",
+    "main.0547712f.js.map": "/tres-caras/static/js/main.0547712f.js.map",
     "787.eddd2761.chunk.js.map": "/tres-caras/static/js/787.eddd2761.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1b3546e.css",
-    "static/js/main.5a0070e6.js"
+    "static/css/main.a217b185.css",
+    "static/js/main.0547712f.js"
   ]
 }
