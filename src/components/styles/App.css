@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  background-image: url(/public/fondo2.jpg);
+  background-position: 'center';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite linear;
+    height: fit-content;
+  }
+}
+
+.App-header {
+  background: linear-gradient(rgb(60, 158, 218) 0%, rgb(57, 53, 208) 100%);
+  opacity: 70%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Interactive-colors {
+  color: lightblue;
+}
+
+@keyframes Hover-Title {
+  0% {
+    transform: scale(1.1);
+    color: orange;
+  }
+  25% {
+    transform: scale(1);
+    color: orange;
+  }
+  50% {
+    transform: scale(100%);
+    color: yellow;
+  }
+  75% {
+    transform: scale(100%);
+    color: yellow;
+  }
+  100% {
+    transform: scale(1.1);
+    color: green;
+  }
+}
+
+.Interactive-colors, .Interactive-colors:active{
+  animation: Hover-Title 7s linear 0s infinite normal forwards;
+}
+
+/*.Interactive-colors:hover, .Interactive-colors:active{*/
+/*  animation: Hover-Color infinite 1000ms ease-in-out;*/
+/*}*/
+
+button {
+  -webkit-appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 11px system-ui;
+  padding: 1px 7px 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-image: initial;
+}
