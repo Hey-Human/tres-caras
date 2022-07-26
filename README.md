@@ -36,5 +36,4 @@ We suggest that you begin by typing:
 #CD/CI
 https://vanessamarely.medium.com/despliegue-de-tu-aplicaci%C3%B3n-de-react-usando-github-actions-357628b6084f
 
-npm run build
-npm run deploy
+npm run build & npm run deploy
