@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tres-caras/static/css/main.9ba439ba.css",
-    "main.js": "/tres-caras/static/js/main.5a177d3d.js",
+    "main.js": "/tres-caras/static/js/main.7fd5ef28.js",
     "static/js/787.eddd2761.chunk.js": "/tres-caras/static/js/787.eddd2761.chunk.js",
     "static/media/fondo2.jpg": "/tres-caras/static/media/fondo2.726bc58bed2f72a5c981.jpg",
     "service-worker.js": "/tres-caras/service-worker.js",
     "index.html": "/tres-caras/index.html",
     "main.9ba439ba.css.map": "/tres-caras/static/css/main.9ba439ba.css.map",
-    "main.5a177d3d.js.map": "/tres-caras/static/js/main.5a177d3d.js.map",
+    "main.7fd5ef28.js.map": "/tres-caras/static/js/main.7fd5ef28.js.map",
     "787.eddd2761.chunk.js.map": "/tres-caras/static/js/787.eddd2761.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ba439ba.css",
-    "static/js/main.5a177d3d.js"
+    "static/js/main.7fd5ef28.js"
   ]
 }
