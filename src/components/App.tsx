@@ -23,7 +23,7 @@ function App() {
             <header className="App-header">
                 <h1>Welcome to this journey. </h1>
                 <h2>We are just starting and we <strong>love</strong> having you on our <strong>first steps</strong></h2>
-                <h3>Go an try our minimal viable product</h3>
+                <h3>Go and try our minimal viable product</h3>
                  👇️
                 <a href="https://mykids.ar/#/">
                     <Button>Try it for free!</Button>
