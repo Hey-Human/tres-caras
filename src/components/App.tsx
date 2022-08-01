@@ -2,7 +2,7 @@ import React from 'react';
 import '../components/styles/App.css';
 import Cuerpo from './Cuerpo';
 import styled from 'styled-components';
-import ButtonAppBar from "./Example1";
+import ButtonAppBar from "./ButtonAppBar";
 
 const Button = styled.a`
   /* This renders the buttons above... Edit me! */
@@ -16,21 +16,27 @@ const Button = styled.a`
   border: 2px solid white;
   }
 `
+
 function App() {
-    return (
-        <div className="App">
-          <ButtonAppBar/>
-            <header className="App-header">
-                <h1>Welcome to this journey. </h1>
-                <h2>We are just starting and we <strong>love</strong> having you on our <strong>first steps</strong></h2>
-                <h3>Go and try our minimal viable product</h3>
-                 👇️
-                <a href="https://mykids.ar/#/">
-                    <Button>Try it for free!</Button>
-                </a>
-            </header>
-        </div>
-    );
+  return (
+    <div className="App">
+      <div className="App-header">
+        <ButtonAppBar/>
+        <h1 className="My-Texto">My kids!</h1>
+        <h2 className="My-Texto">We love having you here</h2>
+        {/*<ButtonAppBar/>*/}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h3 className="My-Texto">Go and try our minimal viable product</h3>
+        <h3>👇</h3>️
+        <a href="https://mykids.ar/#/">
+          <Button>Try it for free!</Button>
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default App;

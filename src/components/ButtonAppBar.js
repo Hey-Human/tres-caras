@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
   },
   customColor: {
     // or hex code, this is normal CSS background-color
-    backgroundColor: green[500]
+    backgroundColor: '#a5d6a76e'
   },
   customHeight: {
-    minHeight: 200
+    minHeight: 40
   },
   offset: theme.mixins.toolbar
 }));
@@ -35,19 +35,9 @@ export default function ButtonAppBar() {
     <React.Fragment>
       <AppBar
         color={isCustomColor || isCustomHeight ? "primary" : example}
-        className={`${isCustomColor && classes.customColor} ${
-          isCustomHeight && classes.customHeight
-        }`}
+        className={`${classes.customColor} ${classes.customHeight}`}
       >
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
           <Typography className={classes.title}>
           </Typography>
           <IconButton color="inherit" onClick={() => setExample("default")}>
@@ -64,4 +54,34 @@ export default function ButtonAppBar() {
       <Toolbar />
     </React.Fragment>
   );
+  //
+  // const classes = useStyles();
+  // const [example, setExample] = useState("primary");
+  // const isCustomColor = example === "customColor";
+  // const isCustomHeight = example === "customHeight";
+  // return (
+  //   <React.Fragment>
+  //     <AppBar
+  //       color={isCustomColor || isCustomHeight ? "primary" : example}
+  //       className={`${isCustomColor && classes.customColor} ${
+  //         isCustomHeight && classes.customHeight
+  //       }`}
+  //     >
+  //       <Toolbar>
+  //         <Typography className={classes.title}>
+  //         </Typography>
+  //         <IconButton color="inherit" onClick={() => setExample("default")}>
+  //           About
+  //         </IconButton>
+  //         <IconButton color="inherit" onClick={() => setExample("primary")}>
+  //           Contact Us
+  //         </IconButton>
+  //         <IconButton color="inherit" onClick={() => setExample("secondary")}>
+  //           Help us
+  //         </IconButton>
+  //       </Toolbar>
+  //     </AppBar>
+  //     <Toolbar />
+  //   </React.Fragment>
+  // );
 }

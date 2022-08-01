@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-image: url(/public/fondo2.jpg);
+  min-height: 1800px;
   background-position: 'center';
   background-size: 'cover';
   background-repeat: 'no-repeat';
@@ -19,15 +20,24 @@
 }
 
 .App-header {
-  background: linear-gradient(rgb(60, 158, 218) 0%, rgb(57, 53, 208) 100%);
-  opacity: 70%;
+  background: #d1d1d1;
+  background: radial-gradient(circle, rgb(60, 158, 218) 0%, rgb(57, 53, 208)) 100%);
+
+  /*background: linear-gradient(#3c9eda,#431616);*/
+  /*background: linear-gradient(rgb(60, 158, 218) 0%, rgb(57, 53, 208) 100%);*/
+  opacity: 60%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.My-Texto {
+  padding-top: 20px;
+  color: ghostwhite;
+  opacity: 100%;
 }
 
 .App-link {
